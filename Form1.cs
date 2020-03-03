@@ -36,14 +36,14 @@ namespace Putovanje2
         private void Azuriraj_Kartu(object sender, EventArgs e)
         {
 
-
+            /* not working atm - working on a solution for Azuriraj_Kartu
 
 
             using (DodajKartuForm dodaj = new DodajKartuForm(ListaKarata.Items[ListaKarata.SelectedIndex]))
             {
                 if (dodaj.ShowDialog() == DialogResult.OK)
                     ListaKarata.Items.Add(dodaj.mojaKarta.mestoPolaska + " - " + dodaj.mojaKarta.mestoDolaska);
-            }
+            } */
 
         }
 
